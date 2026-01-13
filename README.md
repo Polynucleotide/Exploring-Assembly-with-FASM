@@ -16,22 +16,22 @@ These programs include working with:
 
 Some of the more representative exercises include:
 
-- **Lexicographical sorting of 2D points** 
+- [**Lexicographical sorting of 2D points**](./3_memory/6_structures/2_lexicographic_sort.asm)  
   Implements insertion-style sorting over an array of `(x, y)` structs using raw memory offsets.
 
-- **AABB (Axis-Aligned Bounding Box) intersection**  
+- [**AABB (Axis-Aligned Bounding Box) intersection**](./3_memory/6_structures/1_intersection.asm)  
   Computes rectangle overlap using min/max point comparisons.
 
-- **Rectangle area comparison**  
+- [**Rectangle area comparison**](./3_memory/6_structures/0_area_competition.asm)  
   Calculates areas from struct fields and determines the larger rectangle.
 
-- **Most common number**  
+- [**Most common number**](./3_memory/5_ex/3_common_number.asm)  
   Uses a frequency table in memory to find the most common byte value.
 
-- **Gray code -> binary conversion**  
+- [**Gray code -> binary conversion**](./2_bitwise_operations/7_gray_to_binary.asm)  
   Implements bitwise propagation across 32 bits.
 
-- **Bit reversal**  
+- [**Bit reversal**](./2_bitwise_operations/2_bit_reverse.asm)  
   Reverses a 32-bit integer using shifts and rotates.
 
 ---
@@ -39,10 +39,10 @@ Some of the more representative exercises include:
 ### Additional Exercises
 
 The repository also includes smaller programs exploring:
-- Prime number generation  
-- Fibonacci sequences  
-- Power-of-two detection  
-- Basic arithmetic and looping  
+- [Prime number generation](./0_branching/2_basic_conditional_branching/31_all_primes.asm)  
+- [Fibonacci sequences](./0_branching/2_basic_conditional_branching/2_fibonacci.asm)  
+- [Power-of-two detection](./2_bitwise_operations/6_2_power_2_loopless.asm)  
+- [Basic arithmetic and looping](./3_memory/5_ex/1_0_strange_sum_mem.asm)  
 
 These were written as part of learning instruction-level control flow and arithmetic.
 
@@ -52,5 +52,7 @@ These were written as part of learning instruction-level control flow and arithm
 
 This repository only includes **my own assembly source files**.  
 The original course-provided include files (`training.inc`, `win32a.inc`) are excluded for copyright reasons, so the programs will not build as-is.
+
+All program output is in **hexadecimal format**.
 
 The code is provided for **review and demonstration of low-level programming practice**, not as a standalone build system.
